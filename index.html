@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ludo Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="game-board"></div>
+  <button id="roll-dice">Roll Dice</button>
+  <div id="dice-result">Dice Result: <span id="dice"></span></div>
+  <div id="current-player">Current Player: <span id="player">red</span></div>
+  <div id="players">
+    <span id="player-1-name">Player 1 (P1)</span> |
+    <span id="player-2-name">Player 2 (P2)</span> |
+    <span id="player-3-name">Player 3 (P3)</span> |
+    <span id="player-4-name">Player 4 (P4)</span>
+  </div>
+  <div id="badtext"></div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
